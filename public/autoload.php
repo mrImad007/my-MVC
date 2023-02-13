@@ -7,7 +7,6 @@
     define("CONTROLLERS",APP.'controllers'.DS);
     define("MODELS",APP.'models'.DS);
     define("VIEWS",APP.'views'.DS);
-    //db
     define("DATABASE",APP.'database'.DS);
 
     define("UPLOADS",ROOT_PATH.'public'.DS.'uploads'.DS);

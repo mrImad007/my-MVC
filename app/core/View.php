@@ -14,7 +14,7 @@ class View
         }
         else
         {
-            echo 'This view : '.$view_name .' dose not exist';
+            echo 'This view : '.$view_name .' does not exist';
         }
     }
 }

@@ -28,8 +28,6 @@
                 $this->params = !empty($url) ? array_values($url):[];
             }
             
-
-            // echo $url[2];
         }
 
 
@@ -41,11 +39,11 @@
                     call_user_func_array([$controller,$this->action],$this->params);
                 }
                 else{
-                    echo "Method not Exist";
+                    echo "Method does not Exist";
                 }
             }
             else{
-                echo "this controller :".$this->controller . "Not Exists";
+                echo "this controller :".$this->controller . " ". "Doesn't exist";
             }
         }
 
